@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Estudiantil de Alimentos (BEA)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .section-title {
+            color: #ffcc00;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .info-box {
+            background-color: #e6f2ff;
+            border: 2px solid #3399ff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .mission-vision-box {
+            background-color: #f0f0f0;
+            border: 2px solid #666;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .values-box {
+            background-color: #fff0e6;
+            border: 2px solid #ff6600;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+        button {
+            background-color: #ffcc00;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ffdd44;
+        }
+        .team-section {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+        .team-section img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .subject-section button {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .subject-details {
+            display: none;
+            background-color: #f1f1f1;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+        .audio-section {
+            margin: 15px 0;
+            text-align: center;
+        }
+        .audio-section audio {
+            margin: 10px 0;
+        }
+        .contact-section {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .flex-container img {
+            width: 280px; /* Tamaño ajustado */
+            height: auto;
+            margin-right: 20px; /* Espacio entre imagen y texto */
+        }
+        .flex-container p {
+            text-align: justify;
+            flex: 1;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="BEA Logo" width="150">
+        <h1>Banco Estudiantil de Alimentos (BEA)</h1>
+        <p>Conectando estudiantes, alimentando esperanzas</p>
+    </header>
+
+    <nav>
+        <a href="#about">Acerca de</a>
+        <a href="#problem">Problema</a>
+        <a href="#solution">Solución</a>
+        <a href="#team">Equipo</a>
+        <a href="#mission">Misión y Visión</a>
+        <a href="#values">Valores</a>
+        <a href="#subjects">Materias</a>
+        <a href="#arts">Artes y Multimedia</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2 class="section-title">Acerca del Proyecto</h2>
+            <div class="flex-container">
+                <img src="logo.jpg" alt="Acerca de BEA">
+                <p>El Banco Estudiantil de Alimentos (BEA) es una plataforma innovadora creada para enfrentar la inseguridad alimentaria en el CECyT 13, conectando a estudiantes que pueden donar alimentos con aquellos que los necesitan. BEA fomenta la solidaridad y colaboración entre los estudiantes, fortaleciendo la comunidad y optimizando el proceso de donación. El objetivo no es solo combatir el hambre, sino también crear una red de apoyo que promueva la empatía y el compromiso social, buscando un impacto significativo dentro y fuera del Instituto Politécnico Nacional.</p>
+            </div>
+        </section>
+
+        <section id="problem">
+            <h2 class="section-title">Problema</h2>
+            <div class="info-box">
+                <div class="flex-container">
+                    <p>En México, la pobreza y la inseguridad alimentaria son desafíos graves que afectan a gran parte de la población, especialmente a adolescentes y jóvenes. Con un 44% de mexicanos viviendo en pobreza, muchos enfrentan la incertidumbre de no saber si podrán acceder a una alimentación adecuada, lo que impacta su rendimiento escolar, su bienestar emocional y su futuro. La inseguridad alimentaria perpetúa los ciclos de pobreza y crea barreras para una vida plena, poniendo en riesgo el desarrollo de las futuras generaciones. Principales problemas de desarrollo:</p>
+                </div>
+                <img src="pobreza.jpg" alt="Problemática de la Pobreza" width="280"> <!-- Tamaño ajustado -->
+                <div>
+                    <div class="info-box">Desempleo en las familias</div>
+                    <div class="info-box">Pobreza extrema</div>
+                    <div class="info-box">Disfunción familiar</div>
+                    <div class="info-box">Prioridades personales que afectan la alimentación</div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="solution">
+    <h2 class="section-title">Nuestra Solución</h2>
+    <div class="info-box">
+        <div class="flex-container">
+            <p>Para enfrentar la inseguridad alimentaria, desarrollamos BEA, una aplicación móvil innovadora que conecta a estudiantes para donar o solicitar alimentos de forma gratuita y sencilla. BEA no solo es una herramienta práctica, sino un espacio que fomenta la solidaridad y la empatía en la comunidad estudiantil del CECyT 13, ofreciendo una solución digna y accesible. Además de responder al problema inmediato, BEA fortalece los lazos entre estudiantes, promoviendo un cambio social positivo y colaborativo.</p>
+        </div>
+        <img src="solucion.jpg" alt="Solución BEA" width="280"> 
+    </div>
+
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <tr>
+            <th style="background-color: #ffcc00; padding: 10px; border: 2px solid #333;">Características de la solución</th>
+        </tr>
+        <tr>
+            <td style="background-color: #e6f2ff; padding: 10px; border: 2px solid #3399ff;">Registro y login fácil</td>
+        </tr>
+        <tr>
+            <td style="background-color: #fff0e6; padding: 10px; border: 2px solid #ff6600;">Donaciones a través de un formulario sencillo</td>
+        </tr>
+        <tr>
+            <td style="background-color: #f0f0f0; padding: 10px; border: 2px solid #666;">Solicitud de productos disponibles</td>
+        </tr>
+        <tr>
+            <td style="background-color: #e6f2ff; padding: 10px; border: 2px solid #3399ff;">Confirmación por parte de un administrador</td>
+        </tr>
+        <tr>
+            <td style="background-color: #fff0e6; padding: 10px; border: 2px solid #ff6600;">Notificaciones en tiempo real</td>
+        </tr>
+    </table>
+</section>
+
+        <section id="team">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <div id="teamButtons" style="text-align: center;">
+                <button onclick="showMember('beto')">José Alberto García</button>
+                <button onclick="showMember('david')">David Orlando Loaeza</button>
+                <button onclick="showMember('eduardo')">Eduardo David Mercado</button>
+                <button onclick="showMember('roberto')">Roberto Ramírez Hernández</button>
+                <button onclick="showMember('raziel')">Diego Raziel Santiago</button>
+                <button onclick="showMember('franco')">Franco Gustavo Suárez</button>
+            </div>
+            <div id="teamContent"></div>
+        </section>
+
+        <section id="mission">
+            <h2 class="section-title">Misión y Visión</h2>
+            <div style="text-align: center;">
+                <button onclick="showMissionDetails('mission')">Misión</button>
+                <button onclick="showMissionDetails('vision')">Visión</button>
+            </div>
+            <div id="missionDetails" class="mission-vision-box"></div>
+            <div style="text-align: center;">
+                <img src="mission.jpg" alt="Misión y Visión" width="200">
+            </div>
+        </section ```html
+        <section id="values">
+            <h2 class="section-title">Nuestros Valores</h2>
+            <div style="text-align: center;">
+                <div class="values-box">
+                    <strong>Solidaridad:</strong> Fomentamos el apoyo entre estudiantes para combatir la inseguridad alimentaria.
+                </div>
+                <div class="values-box">
+                    <strong>Innovación:</strong> Aprovechamos la tecnología para crear soluciones eficientes y accesibles.
+                </div>
+                <div class="values-box">
+                    <strong>Compromiso:</strong> Nos dedicamos a hacer de BEA una herramienta útil y confiable para la comunidad.
+                </div>
+            </div>
+        </section>
+
+        <section id="subjects" class="subject-section">
+            <h2 class="section-title">Lo que se trabajó en cada materia</h2>
+            <div style="text-align: center;">
+                <button onclick="toggleSubjectDetails('sistemas')">Modelado en Sistemas</button>
+                <button onclick="toggleSubjectDetails('microeconomia')">Microeconomía</button>
+                <button onclick="toggleSubjectDetails('moviles')">Programación de Móviles</button>
+                <button onclick="toggleSubjectDetails('ingles')">Inglés</button>
+                <button onclick="toggleSubjectDetails('contabilidad')">Contabilidad</button>
+                <button onclick="toggleSubjectDetails('datos')">Base de Datos</button>
+                <button onclick="toggleSubjectDetails('integral')">Cálculo integral</button>
+                <button onclick="toggleSubjectDetails('orientación')">Orientación Juvenil y Profesional</button>
+                <button onclick="toggleSubjectDetails('derecho')">Derecho Mercantil</button>
+            </div>
+            <div id="sistemas" class="subject-details">
+                En la materia de Modelado en Sistemas, se emplearon diagramas UML para planificar el desarrollo del sistema antes de escribir una sola línea de código. Este enfoque permitió identificar los posibles errores de diseño y mejorar la estructura general del software. Mediante diagramas de casos de uso, clases y secuencias, logramos una visualización clara de las interacciones del sistema y cómo los diferentes componentes de la aplicación BEA interactúan entre sí. Este proceso no solo nos ayudó a comprender mejor la complejidad del proyecto, sino que también nos permitió optimizar el flujo de trabajo, garantizando un desarrollo eficiente y escalable.
+            </div>
+            <div id="microeconomia" class="subject-details">
+                En Microeconomía, realizamos un análisis exhaustivo del presupuesto del proyecto, calculando el valor actual de todos los materiales y recursos necesarios para el desarrollo de la aplicación BEA. Se tuvieron en cuenta costos como servidores, licencias de software, recursos humanos y mantenimiento de la plataforma. Este análisis nos permitió identificar las limitaciones económicas y buscar soluciones que se ajustaran a nuestro presupuesto, optimizando los recursos sin comprometer la calidad del proyecto. Los conocimientos adquiridos en esta materia no solo fueron útiles para gestionar el proyecto BEA, sino que también nos prepararon para enfrentar situaciones similares en proyectos futuros, gestionando costos de manera eficiente.
+            </div>
+            <div id="moviles" class="subject-details">
+                En Programación de Dispositivos Móviles, desarrollamos la aplicación BEA utilizando C# y .NET MAUI, lo que permitió que la app fuera accesible tanto en dispositivos Android como iOS. La integración con una base de datos SQL fue uno de los mayores retos, ya que debía manejar en tiempo real las donaciones y solicitudes de alimentos, garantizando que los usuarios pudieran acceder a información actualizada sin interrupciones. Además, implementamos funcionalidades como notificaciones push para mantener a los usuarios informados sobre el estado de sus solicitudes y donaciones. Esta materia fue crucial para el desarrollo técnico de la aplicación, brindándonos herramientas y conocimientos para construir una app funcional y eficiente.
+            </div>
+            <div id="ingles" class="subject-details">
+                En Inglés, se realizó un video-comercial donde explicamos el proyecto BEA en su totalidad. Este video, grabado en inglés, estaba orientado a comunicar el propósito, impacto y funcionamiento de la aplicación a un público internacional. A través de este ejercicio, mejoramos nuestras habilidades de comunicación en inglés, especialmente en el contexto técnico y profesional, lo que nos permitirá presentar el proyecto en concursos internacionales o frente a posibles inversionistas. Esta experiencia nos ayudó a dominar el vocabulario especializado y a estructurar presentaciones claras y efectivas.
+            </div>
+            <div id="contabilidad" class="subject-details">
+                En la materia de Contabilidad, realizamos asientos contables en formato diario, simulando la compra y venta de mercancías para el proyecto BE ```html
+A. Este ejercicio práctico nos permitió aplicar lo aprendido en clase, registrando las transacciones financieras con precisión y cumpliendo con los principios contables. Aunque el proyecto BEA no incluye directamente la compraventa de mercancías, esta actividad nos ayudó a comprender cómo gestionar y registrar movimientos financieros, lo cual será fundamental para la sostenibilidad del proyecto una vez que esté en funcionamiento.
+            </div>
+            <div id="datos" class="subject-details">
+                En Base de Datos, aprendimos cómo relacionar y normalizar bases de datos para adaptarlas a las necesidades específicas del proyecto BEA. Nos centramos en asegurar la integridad y eficiencia de la base de datos, lo que permitió gestionar la información de los usuarios, las donaciones y las solicitudes de manera óptima. La normalización ayudó a evitar la redundancia y a mejorar la estructura de los datos, garantizando que el sistema fuera escalable y que las consultas a la base de datos se realizaran de forma rápida y segura. Este proceso fue esencial para la eficiencia técnica de la plataforma.
+            </div>
+            <div id="integral" class="subject-details">
+                En Cálculo Integral, aplicamos los conocimientos sobre integrales a partir de los resultados obtenidos en la materia de Microeconomía. Utilizamos integrales para realizar proyecciones sobre el crecimiento y sostenibilidad del proyecto, basándonos en el flujo de recursos y el impacto esperado en la comunidad estudiantil. Esta aplicación de las matemáticas avanzadas nos permitió cuantificar de manera más precisa cómo evolucionarían las donaciones y el número de usuarios a lo largo del tiempo, lo que añadió un valor predictivo al análisis económico del proyecto.
+            </div>
+            <div id="orientación" class="subject-details">
+                En Orientación Juvenil y Profesional, nos enfocamos en el desarrollo de la misión y visión del proyecto BEA. Reflexionamos sobre los valores fundamentales que guían nuestro trabajo, tales como la solidaridad y el compromiso con la comunidad, y cómo estos se reflejan en la aplicación. La misión de BEA es mitigar la inseguridad alimentaria en la comunidad estudiantil, mientras que su visión es expandir la plataforma a otras instituciones educativas. Esta actividad no solo nos ayudó a definir los objetivos del proyecto, sino también a fortalecer nuestro sentido de propósito y compromiso con el impacto social que buscamos generar.
+            </div>
+            <div id="derecho" class="subject-details">
+                En la materia de Derecho Mercantil, desarrollamos un acta constitutiva para el proyecto BEA, simulando el proceso legal necesario para establecer formalmente una entidad comercial. Este documento incluyó los objetivos del proyecto, la estructura organizativa y los derechos y responsabilidades de cada miembro del equipo. El ejercicio fue esencial para entender los aspectos legales que intervienen en la creación y administración de un proyecto a gran escala, preparándonos para los posibles retos jurídicos y administrativos que podamos enfrentar en el futuro.
+            </div>
+        </section>
+
+        <section id="arts">
+            <h2 class="section-title">Artes y Multimedia</h2>
+            <div class="audio-section">
+                <h3>Himno en Inglés</h3>
+                <button onclick="toggleDescription('hymnDescription')">Descripción de la canción</button>
+                <div id="hymnDescription" style="display:none;">
+                    <p>Nuestra canción para BEA es un reflejo de lo que realmente representa el proyecto: comunidad, solidaridad y esperanza. Con versos que hablan de noches difíciles y cómo la bondad puede iluminar esos momentos oscuros, queríamos capturar la esencia de ayudar y ser ayudado.</p>
+                </div>
+                <audio controls>
+                    <source src="Himno BEA.mp3" type="audio/mpeg">
+                    Tu navegador no soporta audio.
+                </audio>
+            </div>
+            <div class="audio-section">
+                <h3>Canción BEA en Español</h3>
+                <button onclick="toggleDescription('beaSongDescription')">Descripción de la canción</button>
+                <div id="beaSongDescription" style="display:none;">
+                    <p>La canción de BEA celebra la unión de la comunidad a través de la tecnología para combatir la inseguridad alimentaria. En ella, destacamos cómo la app conecta a los estudiantes y facilita las donaciones, creando una red de apoyo.</p>
+                </div>
+                <audio controls>
+                    <source src="Canción BEA.mp3" type="audio/mpeg">
+                    Tu navegador no soporta audio.
+                </audio>
+            </div>
+            <div class="mission-vision-box">
+                <h3>Documental del Proyecto</h3>
+                <p>Hemos creado un comercial/documental en inglés que muestra a profundidad nuestra iniciativa, sus objetivos y su impacto.</p>
+                <a href="https://youtu.be/R_NEVkSRMRo" target="_blank">Ver Documental</a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contáctanos</h2>
+            <p style="text-align: center;">
+                <a href="mailto:beabodrsf@gmail.com">beabodrsf@gmail.com</a>
+                <br>
+                Teléfono: 5571970531
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BEA Project. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        const teamMembers = {
+            beto: { 
+                img: 'Beto.jpg', 
+                name: 'José Alberto García', 
+                role: 'Desarrollador de Diagramas', 
+                description: 'Un talento excepcional en la creación de diagramas estructurales, capaz de visualizar y planificar complejas soluciones técnicas para el desarrollo de proyectos. Su habilidad para resolver problemas complejos con soluciones eficaces le augura un futuro brillante en el mundo tecnológico.' 
+            },
+            david: { 
+                img: 'Davidsote.jpg', 
+                name: 'David Orlando Loaeza', 
+                role: 'Desarrollador de Apps y Experto en Microeconomía', 
+                description: 'Con una sólida formación en desarrollo de aplicaciones y un profundo conocimiento en microeconomía, David domina la creación de soluciones tecnológicas que optimizan procesos y mejoran la eficiencia. Su combinación de habilidades en programación y economía le asegura un futuro lleno de grandes logros.' 
+            },
+            eduardo: { 
+                img: 'Davidsito.jpg', 
+                name: 'Eduardo David Mercado', 
+                role: 'Representante Legal, Creador de Música, Editor de Video, Creador de Página Web', 
+                description: 'Con un talento multidisciplinario que abarca desde el derecho hasta la creatividad digital, Eduardo es el cerebro detrás de la visión del proyecto, encargándose de la representación legal, la creación de contenido musical, la edición de videos y el diseño web. Su capacidad para generar ideas innovadoras y su versatilidad hacen de él una figura clave en el equipo con un futuro brillante.' 
+            },
+            roberto: { 
+                img: 'Roberto.jpg', 
+                name: 'Roberto Ramírez Hernández', 
+                role: 'Ayudante General y Apoyo Moral', 
+                description: 'Roberto es el pilar de apoyo dentro del equipo, brindando no solo asistencia técnica sino también soporte moral para mantener el ánimo del grupo en altos niveles. Además, su habilidad para traducir inglés le permite conectar y comunicar ideas de manera efectiva. Su dedicación y disposición para ayudarle auguran un futuro prometedor.' 
+            },
+            raziel: { 
+                img: 'Raz.jpg', 
+                name: 'Diego Raziel Santiago', 
+                role: 'Encargado de Bases de Datos y Organización', 
+                description: 'Diego Raziel se encarga de la estructura y organización de las bases de datos, asegurando que todo esté correctamente interconectado y optimizado para su funcionamiento. Su destreza en organización, junto con su capacidad de ofrecer apoyo moral, lo convierten en una pieza fundamental del equipo, con un futuro brillante por delante.' 
+            },
+            franco: { 
+                img: 'Franco.jpg', 
+                name: 'Franco Gustavo Suárez', 
+                role: 'Principal Desarrollador de Apps y Experto en Microeconomía', 
+                description: 'Franco es el motor detrás de las aplicaciones móviles que impulsan BEA. Su habilidad para integrar conocimientos de microeconomía y programación le permite crear soluciones innovadoras y efectivas. Su enfoque y su talento lo convierten en un referente dentro del equipo, con un futuro brillante en el desarrollo de proyectos tecnológicos.' 
+            }
+        };
+
+        function showMember(memberKey) {
+            const member = teamMembers[memberKey];
+            const contentDiv = document.getElementById('teamContent');
+            contentDiv.innerHTML = `
+                <div class="team-section">
+                    <img src="${member.img}" alt="${member.name}">
+                    <div>
+                        <p><strong>${member.name}</strong></p>
+                        <p><em>${member.role}</em></p>
+                        <p>${member.description}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        function toggleSolutionDetails() {
+            const details = document.getElementById('solutionDetails');
+            details.style.display = details.style.display === 'none' ? 'block' : ' none';
+        }
+
+        function toggleSubjectDetails(subjectId) {
+            const subjectDetails = document.getElementById(subjectId);
+            subjectDetails.style.display = subjectDetails.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function toggleDescription(descriptionId) {
+            const description = document.getElementById(descriptionId);
+            description.style.display = description.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function showMissionDetails(type) {
+            const detailsDiv = document.getElementById('missionDetails');
+            if (type === 'mission') {
+                detailsDiv.innerHTML = 'Nuestra misión es erradicar la inseguridad alimentaria en la comunidad estudiantil del CECyT 13, mediante una plataforma tecnológica innovadora que fomenta la solidaridad, el apoyo mutuo y el compromiso social entre los estudiantes. A través de BEA, buscamos no solo satisfacer las necesidades alimentarias inmediatas, sino también construir una cultura de colaboración y empatía, donde cada estudiante pueda contribuir activamente al bienestar de su comunidad. Este proyecto es más que una solución temporal; es un paso hacia la transformación social que garantiza el acceso equitativo a los recursos, generando un impacto duradero en la vida académica y personal de cada usuario.';
+            } else if (type === 'vision') {
+                detailsDiv.innerHTML = 'Nos visualizamos como un líder transformador en la lucha contra la inseguridad alimentaria dentro del ámbito educativo, estableciendo a BEA como un modelo de éxito replicable en otras instituciones del Instituto Politécnico Nacional y, eventualmente, en todo el país. Aspiramos a expandir el proyecto a nivel nacional, convirtiéndolo en una herramienta indispensable en la vida de los estudiantes, demostrando que la tecnología y la solidaridad pueden unirse para resolver desafíos sociales críticos. Nuestro objetivo es que BEA sea reconocido no solo por su eficiencia operativa, sino también por su capacidad para cambiar vidas, impactando positivamente en comunidades enteras y creando un futuro más justo y equitativo para todos.';
+            }
+        }
+    </script>
+</body>
+</html>
